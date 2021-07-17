@@ -1,0 +1,64 @@
+Problem B\
+Character Development
+=====================
+
+Virtually every single book, play, movie, novel, and game has at least
+one character. Most have more, and some even have thousands! As every
+good writer knows, the difficulty of creating a character increases with
+each new major character added. This is because fictional characters are
+truly developed through their relationships with others.
+
+If there are no characters or only one character, no relationships need
+to be explored. With two characters, there is one relationship. If there
+are three characters, however, there are four relationships: the ones
+between each pair of characters, and finally the relationship when all
+three are together. In general, the relationship between all subsets of
+at least two characters must be explored.
+
+Given a literary work with \$N\$ characters, how many relationships need
+to be explored?
+
+Input
+-----
+
+The input contains a single integer, \$N\$ (\$0 \\leq N \\leq 30\$), the
+number of characters.
+
+Output
+------
+
+Output a single line with the number of relationships that need to be
+explored.
+
++--------------------------------------+--------------------------------------+
+| Sample Input 1                       | Sample Output 1                      |
++======================================+======================================+
+|     1                                |     0                                |
++--------------------------------------+--------------------------------------+
+
++--------------------------------------+--------------------------------------+
+| Sample Input 2                       | Sample Output 2                      |
++======================================+======================================+
+|     3                                |     4                                |
++--------------------------------------+--------------------------------------+
+
+[** Submit](/sessions/cxmdiz/problems/character/submit "Submit")[**
+Stats](/problems/character/statistics "Problem statistics")
+
+**Problem ID:** character
+
+**CPU Time limit:** 1 second
+
+**Memory limit:** 1024 MB
+
+**Download:**\
+[Sample data files](/problems/character/file/statement/samples.zip)\
+
+**Author:** Wenli Looi
+
+**Source:** Calgary Collegiate Programming Contest 2017
+
+**License:** [![Creative Commons License (cc
+by-sa)](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/3.0/)
+
+#### Powered by Kattis
