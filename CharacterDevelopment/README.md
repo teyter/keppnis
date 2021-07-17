@@ -1,4 +1,3 @@
-Problem B\
 Character Development
 =====================
 
@@ -15,13 +14,13 @@ between each pair of characters, and finally the relationship when all
 three are together. In general, the relationship between all subsets of
 at least two characters must be explored.
 
-Given a literary work with \$N\$ characters, how many relationships need
+Given a literary work with $N$ characters, how many relationships need
 to be explored?
 
 Input
 -----
 
-The input contains a single integer, \$N\$ (\$0 \\leq N \\leq 30\$), the
+The input contains a single integer, $N$ $(0 \leq N \leq 30)$, the
 number of characters.
 
 Output
@@ -30,35 +29,10 @@ Output
 Output a single line with the number of relationships that need to be
 explored.
 
-+--------------------------------------+--------------------------------------+
-| Sample Input 1                       | Sample Output 1                      |
-+======================================+======================================+
-|     1                                |     0                                |
-+--------------------------------------+--------------------------------------+
+| Sample Input 1 | Sample Output 1 |
+|----------------|-----------------|
+| 1              | 0               |
 
-+--------------------------------------+--------------------------------------+
-| Sample Input 2                       | Sample Output 2                      |
-+======================================+======================================+
-|     3                                |     4                                |
-+--------------------------------------+--------------------------------------+
-
-[** Submit](/sessions/cxmdiz/problems/character/submit "Submit")[**
-Stats](/problems/character/statistics "Problem statistics")
-
-**Problem ID:** character
-
-**CPU Time limit:** 1 second
-
-**Memory limit:** 1024 MB
-
-**Download:**\
-[Sample data files](/problems/character/file/statement/samples.zip)\
-
-**Author:** Wenli Looi
-
-**Source:** Calgary Collegiate Programming Contest 2017
-
-**License:** [![Creative Commons License (cc
-by-sa)](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/3.0/)
-
-#### Powered by Kattis
+| Sample Input 2 | Sample Output 2 |
+|----------------|-----------------|
+| 3              | 4               |
